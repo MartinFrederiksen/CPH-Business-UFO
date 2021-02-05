@@ -1,0 +1,159 @@
+\documentclass[10pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+\usepackage [T1]{fontenc}
+\usepackage[margin=2.5cm, headheight=36pt]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\graphicspath{{figures/}{Billeder/}}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{adjustbox}
+\usepackage{tocloft}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{lmodern,textcomp}
+\usepackage{varwidth}
+\usepackage{amsmath}
+
+\usepackage{fourier}
+\usepackage{array}
+\usepackage{makecell}
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[3.5pt]}
+\renewcommand\cellgape{\Gape[3.5pt]}
+
+
+\usepackage{fancyhdr}
+\fancypagestyle{fancy}{
+  \fancyhf{} % clear all header and footer fields
+  \fancyhead[L]{av105 - Andreas Vikke\\mf237 - Martin Frederiksen}
+  \fancyhead[R]{\today\\}
+  \fancyfoot[R]{Side \thepage}
+  \renewcommand{\headrulewidth}{0.4pt}% Line at the header visible
+  \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
+\fancypagestyle{plain}{%
+  \fancyhf{} % clear all header and footer fields
+  \fancyhead[L]{av105 - Andreas Vikke\\mf237 - Martin Frederiksen}
+  \fancyhead[R]{\today\\}
+  \fancyfoot[R]{Side \thepage}
+  \renewcommand{\headrulewidth}{0.4pt}% Line at the header visible
+  \renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
+
+\renewcommand\thefootnote{\textcolor{black}{\arabic{footnote}}}
+
+\hypersetup{
+colorlinks=true,
+linkcolor=black,
+citecolor=green,
+filecolor=magenta,
+urlcolor=cyan
+}
+
+\setlength{\parskip}{6pt}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{turqusnumbers}{rgb}{0.17,0.57,0.69}
+\definecolor{redstrings}{rgb}{0.5,0,0}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\lstdefinelanguage{FSharp}
+                {morekeywords={let, new, match, with, rec, open, module, namespace, type, of, member, and, for, in, do, begin, end, fun, function, try, mutable, if, then, else},
+    keywordstyle=\color{bluekeywords},
+    sensitive=false,
+    morecomment=[l][\color{greencomments}]{///},
+    morecomment=[l][\color{greencomments}]{//},
+    morecomment=[s][\color{greencomments}]{{(*}{*)}},
+    morestring=[b]",
+    stringstyle=\color{redstrings}
+    }
+
+
+\date{}
+
+\begin{document}
+\begin{titlepage}
+  \begin{center}
+    \vspace*{1cm}
+
+    \Huge
+    \textbf{Homework Assignment}
+         
+    \vspace{1.5cm}
+
+    \LARGE
+    \textbf{Andreas Vikke \& Martin Frederiksen}
+
+    \vfill
+  
+    \includegraphics[width=0.4\textwidth]{7fe3c3f6-Stego}
+    
+    \vfill
+    
+    \Large
+    \today\\
+    Professionsbachelor i softwareudvikling\\
+    Cphbusiness Lyngby\\
+    Denmark
+         
+  \end{center}
+\end{titlepage}
+
+\chapter*{1. Description}
+\addcontentsline{toc}{chapter}{1.  Description}
+\pagestyle{fancy}
+In order to look at self reflection and to judge your assessment of information, you should solve the programming exercise below.
+
+However - the important thing in this exercise is how you solved it, not the end result.
+
+At the end of the programming exercise you should have:
+
+\begin{itemize}
+\item A list of \textbf{all} search queries you made to solve it, and timestamps (just copy it from the browser history)
+\item A list all pages you visited to solve it (just copy it from the browser history)
+\item A list of the 3 biggest stumbling blocks you came across and your reflection on why they were problematic (did you misunderstand something, was some of the info you found wrong, did you miss a detail, …)
+\item A brief "every 30 min" diary as explained in the slides (this is more frequent than one would normally do, and is just meant as part of the exercise)
+\end{itemize}
+
+\chapter*{1. Description}
+\addcontentsline{toc}{chapter}{1.  Description}
+\pagestyle{fancy}
+Vi valgte pytohn / docker
+
+
+
+\chapter*{2. Links}
+\addcontentsline{toc}{chapter}{2. Links}
+\pagestyle{fancy}
+\noindent Acceptance Testing. (s.d.). \textit{Softwaretesting Fundamentals}. Lokaliseret den 29.december 2020 på:\\
+\href{https://softwaretestingfundamentals.com/acceptance-testing}{https://softwaretestingfundamentals.com/acceptance-testing}
+
+
+\end{document}
+
