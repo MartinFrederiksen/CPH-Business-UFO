@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  5 FEB 2021 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  5 FEB 2021 16:40
 entering extended mode
 **./Rapport.tex
 (Rapport.tex
@@ -785,11 +785,15 @@ File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 <to be read again> 
                    \relax 
 l.144 \chapter
-              *{1. Description} [1
+              *{2. Løsning} [1
 
 ] [2
 
 ] [3
+
+] [4
+
+] [5
 
 ] (Rapport.aux)
 
@@ -799,23 +803,23 @@ Package rerunfilecheck Warning: File `Rapport.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Rapport.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A5BE85F68E30810B156963757E59F217;144.
+(rerunfilecheck)             After:  56C9705BD8084594538B1B321AA21F3B;261.
  ) 
 Here is how much of TeX's memory you used:
- 12331 strings out of 479624
- 191762 string characters out of 2866573
+ 12335 strings out of 479624
+ 191794 string characters out of 2866573
  697301 words of memory out of 3000000
  29253 multiletter control sequences out of 15000+200000
  440556 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,113p,245b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,11n,113p,375b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/MF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Rapport.pdf (4 pages, 76950 bytes).
+Output written on Rapport.pdf (6 pages, 83961 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 54 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
