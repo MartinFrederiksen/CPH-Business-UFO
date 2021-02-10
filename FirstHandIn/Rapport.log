@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  5 FEB 2021 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  10 FEB 2021 11:52
 entering extended mode
 **./Rapport.tex
 (Rapport.tex
@@ -787,13 +787,36 @@ File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 l.144 \chapter
               *{2. Løsning} [1
 
-] [2
+]
+<Billeder//HowToRun.png, id=17, 1270.7475pt x 314.17375pt>
+File: Billeder//HowToRun.png Graphic file (type png)
+<use Billeder//HowToRun.png>
+Package pdftex.def Info: Billeder//HowToRun.png  used on input line 151.
+(pdftex.def)             Requested size: 472.03123pt x 116.70267pt.
+<Billeder//Dockerfile.png, id=18, 653.44125pt x 317.185pt>
+File: Billeder//Dockerfile.png Graphic file (type png)
+<use Billeder//Dockerfile.png>
+Package pdftex.def Info: Billeder//Dockerfile.png  used on input line 157.
+(pdftex.def)             Requested size: 472.03123pt x 229.12802pt.
+<Billeder//Pythonkode.png, id=19, 1190.4475pt x 497.86pt>
+File: Billeder//Pythonkode.png Graphic file (type png)
+<use Billeder//Pythonkode.png>
+Package pdftex.def Info: Billeder//Pythonkode.png  used on input line 163.
+(pdftex.def)             Requested size: 472.03123pt x 197.40842pt.
+ [2
 
-] [3
-
-] [4
+ <./Billeder//HowToRun.png> <./Billeder//Dockerfile.png>]
+<Billeder//Result.png, id=29, 1097.09875pt x 447.6725pt>
+File: Billeder//Result.png Graphic file (type png)
+<use Billeder//Result.png>
+Package pdftex.def Info: Billeder//Result.png  used on input line 169.
+(pdftex.def)             Requested size: 472.03123pt x 192.61154pt.
+ [3 <./Billeder//Pythonkode.png> <./Billeder//Result.png>]
+[4
 
 ] [5
+
+] [6
 
 ] (Rapport.aux)
 
@@ -803,13 +826,13 @@ Package rerunfilecheck Warning: File `Rapport.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Rapport.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  56C9705BD8084594538B1B321AA21F3B;261.
+(rerunfilecheck)             After:  E15F3ACAF6499946D0C2B0FE9B3477F5;261.
  ) 
 Here is how much of TeX's memory you used:
- 12335 strings out of 479624
- 191794 string characters out of 2866573
+ 12372 strings out of 479624
+ 192570 string characters out of 2866573
  697301 words of memory out of 3000000
- 29253 multiletter control sequences out of 15000+200000
+ 29280 multiletter control sequences out of 15000+200000
  440556 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,113p,375b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -817,9 +840,9 @@ Here is how much of TeX's memory you used:
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Rapport.pdf (6 pages, 83961 bytes).
+Output written on Rapport.pdf (7 pages, 201149 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
