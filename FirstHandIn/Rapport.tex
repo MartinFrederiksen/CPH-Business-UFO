@@ -174,21 +174,23 @@ urlcolor=cyan
 \addcontentsline{toc}{chapter}{3. Største udfordringer}
 \pagestyle{fancy}
 \begin{itemize}
-  \item \textbf{Forståelse af opgaven:} det største problem for vores gruppe var at forstå opgaven. Vi prøvede hver især først at decode billedet uden noget meningsfuldt resultat. Vi brugte dernæst lidt tid på lige at få snakket opgaven ordenligt igennem sådan at der ikke var nogen tvivl om hvad der præsist skulle ske.
-  \item \textbf{Least significant bit of the blue values:} dette brugte vi lidt tid på at forstå ordenligt i forhold til at vi skal tage det sidste bit i den blå del af pixlen. Hvis vi printede en pixel ud fik vi RGB værdien som (R, G, B, ??) hvor ?? er ??.
-  \item \textbf{Little-endian:} her var vi langsomme om at opfatte at ??
+  \item \textbf{Forståelse af opgaven:} det største problem for vores gruppe var at forstå opgaven. Vi prøvede hver især først at decode billedet uden noget meningsfuldt resultat. Vi brugte dernæst lidt tid på lige at få snakket opgaven ordenligt igennem sådan at der ikke var nogen tvivl om hvad der præsist skulle ske. Altså den klassike programmørfejl med at starte på opgaven før den overhovedet er forstået.
+  \item \textbf{Least significant bit of the blue values:} dette brugte vi lidt tid på at forstå ordenligt i forhold til at vi skal tage det sidste bit i den blå del af pixlen. Hvis vi printede en pixel ud fik vi RGBA værdien ud som (R, G, B, A) hvor A er alpha og beskriver transparens i den givne pixel. Derudover stod det ikke 100\% klart at \textit{Least significant} betød den sidste bit i farve værdien.
+  \item \textbf{Little-endian:} her var vi langsomme om at opfatte at hver byte var spejlvendt.
 \end{itemize}
 
 \chapter*{4. Dagbog}
 \addcontentsline{toc}{chapter}{4. Dagbog}
 \pagestyle{fancy}
 
-\noindent\textbf{05/01-21 kl. 14.07:}
+\noindent\textbf{05/01-21 kl. 14.07:}\\
+\noindent Da vi hver især bare kastede os ud i opgaven uden held brugte vi tiden på det første møde til at gennemgå opgaven samlet. På den måde kunne alle parter blive enige om hvad der præsist skulle ske. Vores gruppe havde hver især også problemer med at forstå enkelte ord/begreber i opgaven og under mødet kunne vi svare hinanden på hvad ordene/begreberne betød.
 
-\noindent\textbf{05/01-21 kl. 14.45:}
+\noindent\textbf{05/01-21 kl. 14.45:}\\
+\noindent Efter vi havde fået en forståelse af opgaven kunne vi begynde at arbejde rigtig på en løsning. Vi løb så ind i det næste problem før dette møde, hvilket var at forstå det output ordenligt som vi fik da vi så på en bestemet pixel. Vi var lidt i tvivl om hvad den sidst bit betød i forhold til pxilen da vi så på 4 værdier og ikke kun 3. Vi undersøgte så dette under mødet og kunne derved konstatere at den sidste værdi i pixlen er den værdi der beskriver hvor transparent pixlen er. Derudover var vi nødt til igen at undersøge hvad \textit{Least significant} betød eftersom vi ikke havde den rette forståelse da det kom til stykket.
 
-\noindent\textbf{05/01-21 kl. 15.20:}
-
+\noindent\textbf{05/01-21 kl. 15.20:}\\
+\noinden Under dette møde havde vi en følelse af at vi var ved at være i mål. Vi havde nu alle sluttende bits fra den blå farve i hele billedet men outputtet gav ingen mening. Efter endnu en gennemlæsning af opgaven fandt vi vores fejl som lå i at vi skulle spejlvende alle vores bytes og derved fik vi et resultat der gav mening. Til sidst kunne vi også fjerne resten af outputtet efter vi fandt byten \textit{00000000}.
 
 \chapter*{5. Søgning og links}
 \addcontentsline{toc}{chapter}{5. Search and pages}

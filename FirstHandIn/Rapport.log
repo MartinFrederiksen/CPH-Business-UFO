@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  10 FEB 2021 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  10 FEB 2021 12:22
 entering extended mode
 **./Rapport.tex
 (Rapport.tex
@@ -814,7 +814,15 @@ Package pdftex.def Info: Billeder//Result.png  used on input line 169.
  [3 <./Billeder//Pythonkode.png> <./Billeder//Result.png>]
 [4
 
-] [5
+]
+! Undefined control sequence.
+<recently read> \noinden 
+                         
+l.193 \noinden
+               Under dette møde havde vi en følelse af at vi var ved at v�...
+
+? 
+[5
 
 ] [6
 
@@ -829,18 +837,18 @@ Package rerunfilecheck Info: Checksums for `Rapport.out':
 (rerunfilecheck)             After:  E15F3ACAF6499946D0C2B0FE9B3477F5;261.
  ) 
 Here is how much of TeX's memory you used:
- 12372 strings out of 479624
- 192570 string characters out of 2866573
- 697301 words of memory out of 3000000
- 29280 multiletter control sequences out of 15000+200000
+ 12373 strings out of 479624
+ 192577 string characters out of 2866573
+ 698301 words of memory out of 3000000
+ 29281 multiletter control sequences out of 15000+200000
  440556 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,113p,375b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,11n,113p,698b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/MF/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Rapport.pdf (7 pages, 201149 bytes).
+Output written on Rapport.pdf (7 pages, 204166 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
