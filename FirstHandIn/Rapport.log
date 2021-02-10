@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  10 FEB 2021 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.8)  10 FEB 2021 13:07
 entering extended mode
 **./Rapport.tex
 (Rapport.tex
@@ -824,7 +824,30 @@ l.193 \noinden
 ? 
 [5
 
-] [6
+]
+Overfull \hbox (7.8286pt too wide) in paragraph at lines 198--221
+\T1/futs/m/n/10 5/2-21, 14.14 - [][]htt-ps://bogotobogo.com/python/OpenCV_Pytho
+n/python_opencv3_basic_image_operations_pixel_ 
+ []
+
+
+Overfull \hbox (17.48854pt too wide) in paragraph at lines 198--221
+\T1/futs/m/n/10 5/2-21, 14.45 - [][]https://www.researchgate.net/figure/A-pixel
+-in-RGB-color-space-Least-Significant-Bits-LSB-insertion-
+ []
+
+
+Overfull \hbox (17.48854pt too wide) in paragraph at lines 198--221
+\T1/futs/m/n/10 5/2-21, 15.06 - [][]https://www.researchgate.net/figure/A-pixel
+-in-RGB-color-space-Least-Significant-Bits-LSB-insertion-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--221
+
+ []
+
+[6
 
 ] (Rapport.aux)
 
@@ -839,7 +862,7 @@ Package rerunfilecheck Info: Checksums for `Rapport.out':
 Here is how much of TeX's memory you used:
  12373 strings out of 479624
  192577 string characters out of 2866573
- 698301 words of memory out of 3000000
+ 699301 words of memory out of 3000000
  29281 multiletter control sequences out of 15000+200000
  440556 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -848,9 +871,9 @@ Here is how much of TeX's memory you used:
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Us
 ers/MF/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Rapport.pdf (7 pages, 204166 bytes).
+Output written on Rapport.pdf (7 pages, 210596 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
