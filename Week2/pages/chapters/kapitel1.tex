@@ -1,0 +1,12 @@
+\documentclass[class=report, crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+
+\begin{document}
+    \chapter{Navn på kapitel 1}
+    \label{kapitel1}
+    Metatekst til kapitel 1 (det følgende er lipsum tekst): \lipsum[2-4]
+    \import{pages/sections/}{section1_1}
+
+    \import{pages/sections/}{section1_2}
+
+\end{document}

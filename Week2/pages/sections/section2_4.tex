@@ -1,0 +1,42 @@
+\documentclass[class=report, crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+
+\begin{document}
+    \section{Figure}
+    For at spare lidt plads vælger vi her at placere 2 figure ved siden af hinanden, hvor figurteksten er placeret hhv, over og under den tilhørende figur. Vi har figurtekst og label på den "samlede" figur, samt labels på hver subfigur. Den samlede figur er også centreret.
+    \begin{figure}[ht]
+        \centering
+            \begin{subfigure}[ht]{.4\textwidth}
+                \includegraphics[width=\textwidth]{AsgerD-crew.png}
+                \caption{Figurtekst under billed.}
+                \label{fig:AsgerUnder}
+            \end{subfigure}
+            \begin{subfigure}[ht]{.4\textwidth}
+                \caption{Figurtekst over billed.}
+                \includegraphics[width=\textwidth]{AsgerD-crew.png}
+                \label{fig:AsgerAbove}
+            \end{subfigure}
+            \caption{Dette er figurtekst til hele figuren}
+            \label{fig:SamledeFigur}
+    \end{figure}
+
+    \noindent Følgende kommandoer er brugt til ovenstående eksempel:
+    \begin{tcolorbox}\mbox{}
+        \begin{verbatim}
+            \begin{figure}[ht]
+                \centering
+                    \begin{subfigure}[ht]{.4\textwidth}
+                        \includegraphics[width=\textwidth]{AsgerD-crew.png}
+                        \caption{Figurtekst under billed.}
+                        \label{fig:AsgerUnder}
+                    \end{subfigure}
+                    \begin{subfigure}[ht]{.4\textwidth}
+                        \caption{Figurtekst over billed.}
+                        \includegraphics[width=\textwidth]{AsgerD-crew.png}
+                        \label{fig:AsgerAbove}
+                    \end{subfigure}
+            \end{figure}
+        \end{verbatim}
+    \end{tcolorbox}
+
+\end{document}
