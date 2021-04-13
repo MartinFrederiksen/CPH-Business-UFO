@@ -1,0 +1,14 @@
+\standalonepreambles
+\subpreamble{pages/chapters/kapitel1.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\subpreamble{pages/sections/section1_1.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\subpreamble{pages/chapters/kapitel2.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\subpreamble{pages/sections/section2_1.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\endstandalonepreambles
