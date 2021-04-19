@@ -8,6 +8,7 @@
 \usepackage{subcaption}
 \usepackage[pdfpagelabels]{hyperref}
 \usepackage[nottoc]{tocbibind}
+\usepackage{float}
 
 \usepackage[most]{tcolorbox}
 
@@ -41,7 +42,7 @@
 \usepackage{import}
 
 
-\title{Exploration and Presentation - Assignment 3}
+\title{Exploration and Presentation - Assignment 4}
 \author{
     Martin, Frederiksen\\
     \texttt{cph-mf237@cphbusiness.dk}\\
@@ -66,8 +67,11 @@
 
 \hypersetup{pageanchor=true}
 \tableofcontents
+\newpage
+\import{pages}{indledning}
 \import{pages/chapters/}{kapitel1}
 \import{pages/chapters/}{kapitel2}
+\import{pages}{konklusion}
 
 \end{document}
 

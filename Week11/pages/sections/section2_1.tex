@@ -9,9 +9,7 @@
         \[ 56859375,2 \text{ ns} \pm 10085179,175   \]
     \end{tcolorbox}
 
-    \noindent Vi kan se et problem i forhold til maps put metode, idet put er langsom. Dette skyldes at put først skal lede mappet igennem efter et bestemt bogstav(skrevet som ASCII i vores tilfælde) og derefter tælle en op hvis bogstavet eksistere. 
-    Hvis ikke bogstavet eksistere i mappet bliver der så kastet en exception hvor denne exception bliver grebet i catch og så først der bliver bogstavet puttet ind i mappet og bliver talt 1 op sådan at det illustere at der er 1 af et givent bogstav.
-    På denne måde bliver maps put metode en bottleneck fordi programmet skal vente på at map får puttet et bogstav ind før programmet kan køre videre. Vores optimiseret program ser derfor således ud:
+    \noindent Oprindeligt troede vi ud fra det resultat vi fik fra profileren fra IntelliJ at problemet lå i maps put metode. Vi har siden da lært at put kører O(1) og ikke er en bottleneck for vores program. Det som virker til at have hjulpet mest på optimeringen er at vi valgte at bruge er long array i stedet for et hashmap. Vi holder os til den følgende optimering da vi stadig har fået en god hastighedsforøgelse. Vores optimiseret program ser derfor således ud:
     \lstset{style=codestyle}
     \lstinputlisting[language=Java, firstline=20, caption=Main.java]{Kode/Main.java}
 
