@@ -1,4 +1,4 @@
-# Assignment 3
+# Assignment 3 & 4
 
 ### Task 1:
 [Læs PDF her](https://github.com/MartinFrederiksen/CPH-Business-UFO/blob/main/Week11/Rapport.pdf)
