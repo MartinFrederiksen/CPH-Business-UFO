@@ -1,0 +1,22 @@
+\documentclass[class=report, crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+
+\begin{document}
+    \section{Indholdsfortegnelse}
+    Indholdsfortegnelsen kan autogenereres i document klassen med følgende kommando:
+    \begin{tcolorbox}
+        \verb|\tableofcontents|
+    \end{tcolorbox}
+    \noindent Derudover kan en liste af figure autogenereres således:
+    \begin{tcolorbox}
+        \verb|\listoffigures|
+    \end{tcolorbox}
+    \noindent Vi kan autogenerere en liste af listings som ex. kan bruges til kodestumper:
+    \begin{tcolorbox}
+        \verb|\lstlistoflistings|
+    \end{tcolorbox}
+    \noindent Det er også muligt at lave en liste af tabeller:
+    \begin{tcolorbox}
+        \verb|\listoftables|
+    \end{tcolorbox}
+\end{document}

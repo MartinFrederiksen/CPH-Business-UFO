@@ -1,0 +1,18 @@
+\documentclass[class=report, crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+
+\begin{document}
+    \section{Titel}
+    Forside kan defineres før document klassen ex:
+    \begin{tcolorbox}
+        \verb|\title{Exploration and Presentation - Assignment 2}|\\
+        \verb|\author{Martin Frederiksen}|\\
+        \verb|\date{\today}|
+    \end{tcolorbox}
+    
+    \noindent Nu da forsiden er defineret kan vi kalde på den i vores document klasse således:
+    \begin{tcolorbox}
+        \verb|\maketitle|
+    \end{tcolorbox}
+
+\end{document}
