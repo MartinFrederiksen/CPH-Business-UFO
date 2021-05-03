@@ -1,0 +1,20 @@
+\standalonepreambles
+\subpreamble{pages/sections/section1_1.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\subpreamble{pages/sections/section1_2.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {enumitem}\usepackage {csquotes}
+\endsubpreamble
+\subpreamble{pages/sections/section2_1.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\subpreamble{pages/sections/section2_2.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\subpreamble{pages/sections/section2_3.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\subpreamble{pages/sections/section2_12.tex}
+\usepackage [subpreambles=true]{standalone}
+\endsubpreamble
+\endstandalonepreambles
