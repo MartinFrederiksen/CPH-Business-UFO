@@ -3,8 +3,8 @@
 
 \begin{document}
     \section{Test af hastighed}
-    For at teste hastigheden skal der bruges en profiler der kan måle gennemsnitstiden af metoden. Denne profiler er ikke helt ens i C\# og Python, men koden vil teste hastigheden af Insertion Sort metoden kun. På Listing \ref{lst:c_profiler} og \ref{lst:python_profiler} ses koden til profileren. Det kan ses her at vi kører 1000 iterationer af 10000 metode kald, som vi finder gennemsnittet af og udregner middelværdi og difference.
-    Begge sprogs programmer blev kørt på en Ubuntu 20.1 i et WSL2 miljø på Windows. Windows system havde udelukkende de nødvendige ting samt WSL2 kørende, for at minimere resource forbruget fra andre progammer. Derved kunne WSL2 bruge så mange resourcer som muligt under kørslen, som ville give et mere præcis resultat af den målte hastighed.
+    For at teste hastigheden skal der bruges en profiler, der kan måle gennemsnitstiden af metoden. Denne profiler er ikke helt ens i C\# og Python, men koden vil kun teste hastigheden af Insertion Sort metoden. På Listing \ref{lst:c_profiler} og \ref{lst:python_profiler} ses koden til profileren. Det kan ses her at vi kører 1000 iterationer af 10000 metodekald, som vi finder gennemsnittet af og udregner middelværdi og difference.
+    Begge sprogs programmer blev kørt på en Ubuntu 20.1 i et WSL2 miljø på Windows. Windows system havde udelukkende de nødvendige ting samt WSL2 kørende, for at minimere ressourceforbruget fra andre programmer. Derved kunne WSL2 bruge så mange ressourcer som muligt under kørslen, som ville give et mere præcist resultat af den målte hastighed.
     \begin{tcolorbox}
         \lstset{style=codestyle}
         \lstinputlisting[language={[Sharp]C}, lastline=22, caption={C\# Profiler}, label={lst:c_profiler}]{Kode/Profiler.cs}
